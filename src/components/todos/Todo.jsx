@@ -68,7 +68,17 @@ export const Todo = ({ todoProps }) => {
       px="1rem"
       py="0.5rem"
       bgcolor="#f1f2f6"
-      borderRadius=".25rem"
+      borderRadius="0.25rem"
+      sx={{
+        width: {
+          xs: 320,
+          sm: 420,
+          md: 520,
+          lg: 620,
+          xl: 720,
+        },
+        mx: "auto",
+      }}
     >
       <Stack direction="row" alignItems="center" spacing="0.5rem">
         <IconButton onClick={handleTaskDone}>
