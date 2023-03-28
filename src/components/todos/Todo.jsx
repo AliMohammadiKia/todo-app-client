@@ -71,8 +71,8 @@ export const Todo = ({ todoProps }) => {
       borderRadius="0.25rem"
       sx={{
         width: {
-          xs: 320,
-          sm: 420,
+          xs: 220,
+          sm: 320,
           md: 520,
           lg: 620,
           xl: 720,
